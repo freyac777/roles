@@ -1,0 +1,2 @@
+---
+- import_tasks: create-ec2.yaml
