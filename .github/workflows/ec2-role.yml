@@ -45,7 +45,6 @@ jobs:
            
     - name: Run Ansible Playbook
       run: |
-        cd ec2-instance
-        ansible-playbook ./tests/test.yml
+        ansible-playbook ./ec2-instance/tests/test.yml
 
 
